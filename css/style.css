@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('../Font/cac_champagne-webfont.eot');
+    src: url('../Font/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Font/cac_champagne-webfont.woff') format('woff'),
+         url('../Font/cac_champagne-webfont.ttf') format('truetype'),
+         url('../Font/cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+body {
+  margin: auto;
+  background-image: url("../image/background.jpg")
+  background-color: (255,255,255,0.1);
+  background-size: cover;
+  color:#E1E1E1;
+}
+img{
+  width:100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+nav{
+
+  float:  left;
+  height: 1000px;
+  width:  100px;
+  background-color:#918779;
+}
+.coprs 
+{
+  display:  flex;
+  flex-direction: row;
+  justify-content:  center;  
+}
+.element{
+  width: 20%;
+}
+
+h1{
+  text-shadow: 2px 2px 5px; 
+  font-family: 'cac_champagneregular';
+  font-size: 40px;
+}
+header {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.image_float {
+  float:  right;
+  top: 50px;
+}
+ 
+h2 {
+  color: red;
+}
+footer{
+  border-top: 1px solid black;
+  text-align:center;
